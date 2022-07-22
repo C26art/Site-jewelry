@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>   
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+    <link rel="stylesheet" href="./css/jewels.css">   
+
+</head>
+    <body>
+        <header id="header">
+            <a href="#" class="logo"><img src="./img/Logo.png" width="120px" height="120px"></a>          
+            <ul>
+                <li><a href="#banner" onclick="toggle()">Home</a></li>
+                <li><a href="#about" onclick="toggle()">About</a></li>
+                <li><a href="#products" onclick="toggle()">Products</a></li>
+                <li><a href="#testimonials" onclick="toggle()">Testimonials</a></li>
+                <li><a href="#contact" onclick="toggle()">Contact</a></li>
+            </ul>
+            <div class="toggle" onclick="toggle()"></div>
+        </header>
+        <section class="banner">
+            <div class="imgBx">
+                <img src="./img/Index1.jpg" class="active">
+                <img src="./img/index5.jpg">
+                <img src="./img/index3.jpg">
+                <img src="./img/index4.jpg">
+            </div>
+            <div class="contentBox">
+                <div class="active">
+                    <h2>Harry Winston</h2>
+                    <p>Graff Diamonds is laser engraved with original<br> Gemological Institute of America tracking numbers.</p>
+                    <a href="#">Details</a>
+                </div>
+                <div>
+                    <h2>Fossil</h2>
+                    <p>True to its Art Deco roots and therefore appeals<br> to modern taste, but the house also believes in<br> Old World elegance.</p>
+                    <a href="#">Details</a>
+                </div>
+                <div>
+                    <h2>Rolex</h2>
+                    <p>Rolex mixes traditional and innovative designs,<br> creating bold gold, cabochon stones, brightly<br> colored floral and fruity motifs.
+
+                    </p>
+                    <a href="#">Details</a>
+                </div>
+                <div>
+                    <h2>Tiffany & Co.</h2>
+                    <p>Jewelry for all occasions.<br> The brand's metals and stones are impeccable.</p>
+                    <a href="#">Details</a>
+                </div>
+            </div>
+                <ul class="controls">
+                    <li onclick="prevSlide(); prevSlideText();"></li>
+                    <li onclick="nextSlide(); nextSlideText();"></li>
+                </ul>
+        </section>
+
+        <section class="about" id="about">
+            <div class="row">
+                <div class="col50">
+                    <h2 class="titleText"><span>A</span>bout Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis laborum quaerat possimus tempora animi dignissimos facilis incidunt? Ullam, minima aperiam excepturi vitae aut ad dolores beatae officiis dicta illum temporibus fugiat quasi ut pariatur culpa, tempore quis unde! Eaque enim suscipit explicabo facilis dolorum ipsa omnis! Dolor illo sint earum.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit placeat vero neque blanditiis eaque obcaecati, officia porro, unde eligendi atque assumenda repellat autem officiis! Officiis dolor dolorem id odio magni alias, beatae, a inventore provident totam, deleniti magnam modi delectus!</p>
+                </div>
+                <div class="col50">
+                    <div class="imgBox">
+                        <img src="./img/image1.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products" id="products">
+            <div class="title">
+                <h2  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" class="titleText">Our<span> P</span>roducts</h2>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, nisi.</p>
+            </div>
+            <div class="content">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product1.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product2.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product3.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product4.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product5.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product6.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product7.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product8.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product9.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product10.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product11.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product12.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product16.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product19.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product18.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product13.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product14.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="./img/product15.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="title">
+                <a href="#" class="btn">View All</a>
+            </div>
+            <div class="row2">
+                <div class="flip">
+                    <h2 class="titleText">New Co<span>l</span>lection</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis laborum quaerat possimus tempora animi dignissimos facilis incidunt? Ullam, minima aperiam excepturi vitae aut ad dolores beatae officiis dicta illum temporibus fugiat quasi ut pariatur culpa, tempore quis unde! Eaque enim suscipit explicabo facilis dolorum ipsa omnis! Dolor illo sint earum.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit placeat vero neque blanditiis eaque obcaecati, officia porro, unde eligendi atque assumenda repellat autem officiis! Officiis dolor dolorem id odio magni alias, beatae, a inventore provident totam, deleniti magnam modi delectus!<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil exercitationem iure voluptas fuga. Incidunt voluptates quam placeat voluptate cupiditate pariatur doloremque aspernatur laudantium molestias deserunt voluptatibus ducimus iure, iste earum?<br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem rerum ratione aliquam corrupti quaerat excepturi commodi.</p>
+                </div>
+                <div class="flip">
+                    <div class="imgBoxi">
+                        <input type="checkbox">
+                        <span class="bg1"></span>
+                        <span class="bg2"></span>                                                
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="title2">
+                <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" class="titleText">Spe<span>c</span>ial Products</h2>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, nisi.</p>
+            </div>
+            <div class="container">
+                <div class="boxx">
+                    <div class="imageBxx">
+                        <img src="./img/box1.jpg">
+                    </div>
+                    <div class="contentBx1">
+                        <div>
+                        <h2>Post Title</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, soluta? Incidunt possimus eaque facilis aliquam ab iste? Itaque perferendis atque explicabo libero aliquam tenetur?</p>  
+                    </div>                      
+                    </div>
+                </div>
+                <div class="boxx">
+                    <div class="imageBxx">
+                        <img src="./img/box2.jpg">
+                    </div>
+                    <div class="contentBx1">
+                        <div>
+                        <h2>Post Title</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, soluta? Incidunt possimus eaque facilis aliquam ab iste? Itaque perferendis atque explicabo libero aliquam tenetur?</p>  
+                    </div>                      
+                    </div>
+                </div>
+                <div class="boxx">
+                    <div class="imageBxx">
+                        <img src="./img/box3.jpg">
+                    </div>
+                    <div class="contentBx1">
+                        <div>
+                        <h2>Post Title</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, soluta? Incidunt possimus eaque facilis aliquam ab iste? Itaque perferendis atque explicabo libero aliquam tenetur?</p>  
+                    </div>                      
+                    </div>
+                </div>
+                <div class="boxx">
+                    <div class="imageBxx">
+                        <img src="./img/box4.jpg">
+                    </div>
+                    <div class="contentBx1">
+                        <div>
+                        <h2>Post Title</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, soluta? Incidunt possimus eaque facilis aliquam ab iste? Itaque perferendis atque explicabo libero aliquam tenetur?</p>  
+                    </div>                      
+                    </div>
+                </div>
+                <a href="#"><span>Buy Now</span></a>                
+            </div>
+            <div class="title3">
+                <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" class="titleText">Gif<span>t</span> Cupons</h2>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, nisi.</p>
+            </div>
+            <div class="container2">
+            <div class="card">
+                <div class="imageBoxs">
+                    <img src="./img/boxxs1.jpg">
+                </div>
+                <div class="detailss">
+                    <h2>Lorem Ipsun Dolar</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit neque pariatur quae itaque tempora id ab porro voluptatibus perspiciatis debitis inventore reiciendis voluptatum animi praesentium eveniet, quia obcaecati dignissimos temporibus.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imageBoxs">
+                    <img src="./img/boxx4.jpg">
+                </div>
+                <div class="detailss">
+                    <h2>Lorem Ipsun Dolar</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit neque pariatur quae itaque tempora id ab porro voluptatibus perspiciatis debitis inventore reiciendis voluptatum animi praesentium eveniet, quia obcaecati dignissimos temporibus.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imageBoxs">
+                    <img src="./img/boxx5.jpg">
+                </div>
+                <div class="detailss">
+                    <h2>Lorem Ipsun Dolar</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit neque pariatur quae itaque tempora id ab porro voluptatibus perspiciatis debitis inventore reiciendis voluptatum animi praesentium eveniet, quia obcaecati dignissimos temporibus.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imageBoxs">
+                    <img src="./img/boxx6.jpg">
+                </div>
+                <div class="detailss">
+                    <h2>Lorem Ipsun Dolar</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit neque pariatur quae itaque tempora id ab porro voluptatibus perspiciatis debitis inventore reiciendis voluptatum animi praesentium eveniet, quia obcaecati dignissimos temporibus.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imageBoxs">
+                    <img src="./img/boxxs.jpg">
+                </div>
+                <div class="detailss">
+                    <h2>Lorem Ipsun Dolar</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit neque pariatur quae itaque tempora id ab porro voluptatibus perspiciatis debitis inventore reiciendis voluptatum animi praesentium eveniet, quia obcaecati dignissimos temporibus.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imageBoxs">
+                    <img src="./img/boxxs2.jpg">
+                </div>
+                <div class="detailss">
+                    <h2>Lorem Ipsun Dolar</h2>
+                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit neque pariatur quae itaque tempora id ab porro voluptatibus perspiciatis debitis inventore reiciendis voluptatum animi praesentium eveniet, quia obcaecati dignissimos temporibus.</p>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="testimonials" id="testimonials">
+            <div class="title white">
+                <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" class="titleText">They <span>S</span>aid About Us</h2>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, nisi.</p>
+            </div>
+            <div class="content6">
+                <div class="boxis">
+                    <div class="imgssBx">
+                        <img src="./img/testi1.jpg">
+                    </div>
+                    <div class="texts">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus facilis doloribus eius nostrum deserunt ut ea omnis possimus nobis earum?</p>
+                        <h3>Someone Famous</h3>
+                    </div>
+                </div>
+                <div class="boxis">
+                    <div class="imgssBx">
+                        <img src="./img/testi2.jpg">
+                    </div>
+                    <div class="texts">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus facilis doloribus eius nostrum deserunt ut ea omnis possimus nobis earum?</p>
+                        <h3>Someone Famous</h3>
+                    </div>
+                </div>
+                <div class="boxis">
+                    <div class="imgssBx">
+                        <img src="./img/testi3.jpg">
+                    </div>
+                    <div class="texts">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus facilis doloribus eius nostrum deserunt ut ea omnis possimus nobis earum?</p>
+                        <h3>Someone Famous</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="title">
+                <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" class="titleText"><span>C</span>ontact Us</h2>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, nisi.</p>
+            </div>
+            <div class="contactForm">
+                <h3>Send Message</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <textarea placeholder="Message"></textarea>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Send">
+                </div>
+            </div>
+        </section>
+        <div class="copyrighText">
+            <p>Copyright© 2022 - Cristian Mitidieri. All Right Reserved</p>
+        </div>
+
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+         <script>
+              AOS.init();
+         </script>
+
+        <script>    
+
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            })            
+        
+        
+            function toggle(){
+                var header = document.querySelector("header");
+                header.classList.toggle("active");
+            }
+
+
+            const imgBx = document.querySelector('.imgBx');
+            const slides = imgBx.getElementsByTagName('img');
+            var i = 0;
+            
+            function nextSlide(){
+                slides[i].classList.remove('active');
+                i = (i + 1) % slides.length;
+                slides[i].classList.add('active');
+            }
+            function prevSlide(){
+                slides[i].classList.remove('active');
+                i = (i - 1 + slides.length) % slides.length;
+                slides[i].classList.add('active');
+            }
+
+            const contentBox = document.querySelector('.contentBox');
+            const slidesText = contentBox.getElementsByTagName('div');
+            var j = 0;
+            
+            function nextSlideText(){
+                slidesText[j].classList.remove('active');
+                j = (j + 1) % slidesText.length;
+                slidesText[j].classList.add('active');
+            }
+            function prevSlideText(){
+                slidesText[j].classList.remove('active');
+                j = (j - 1 + slidesText.length) % slidesText.length;
+                slidesText[j].classList.add('active');
+            }
+        </script>
+        
+    </body>
+</html>
